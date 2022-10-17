@@ -143,7 +143,7 @@ function RightPane() {
 
       <CardContainer>
         <PlaygroundCard>
-          <SmallLogo src='/logo.png' alt='' />
+          <SmallLogo src='/logoSmall.png' alt='' />
           <CardContent>
             <h5>Stack Implementation</h5>
             <p>Language: C++</p>
@@ -156,7 +156,7 @@ function RightPane() {
 
 
         <PlaygroundCard>
-          <SmallLogo src='/logo.png' alt='' />
+          <SmallLogo src='/logoSmall.png' alt='' />
           <CardContent>
             <h5>Stack Implementation</h5>
             <p>Language: C++</p>
@@ -168,7 +168,7 @@ function RightPane() {
         </PlaygroundCard>
 
         <PlaygroundCard>
-          <SmallLogo src='/logo.png' alt='' />
+          <SmallLogo src='/logoSmall.png' alt='' />
           <CardContent>
             <h5>Stack Implementation</h5>
             <p>Language: C++</p>
