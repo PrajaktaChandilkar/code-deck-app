@@ -75,8 +75,8 @@ function RightPane() {
 
   const Folder = styled.div`
     // background: red;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem; 
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
     // padding:1rem
   `;
 
@@ -179,6 +179,108 @@ function RightPane() {
           </Icons>
         </PlaygroundCard>
       </CardContainer>
+
+
+      {/* // */}
+      <Folder>
+        <Header variant='folder'>
+          <Heading size='small'>
+            Data Structure
+          </Heading>
+          <AddButton>
+            <span>+</span> New ground
+          </AddButton>
+        </Header>
+      </Folder>
+
+      <CardContainer>
+        <PlaygroundCard>
+          <SmallLogo src='/logoSmall.png' alt='' />
+          <CardContent>
+            <h5>Stack Implementation</h5>
+            <p>Language: C++</p>
+          </CardContent>
+          <Icons>
+            <IoTrashOutline />
+            <BiEditAlt />
+          </Icons>
+        </PlaygroundCard>
+
+
+        <PlaygroundCard>
+          <SmallLogo src='/logoSmall.png' alt='' />
+          <CardContent>
+            <h5>Stack Implementation</h5>
+            <p>Language: C++</p>
+          </CardContent>
+          <Icons>
+            <IoTrashOutline />
+            <BiEditAlt />
+          </Icons>
+        </PlaygroundCard>
+
+        <PlaygroundCard>
+          <SmallLogo src='/logoSmall.png' alt='' />
+          <CardContent>
+            <h5>Stack Implementation</h5>
+            <p>Language: C++</p>
+          </CardContent>
+          <Icons>
+            <IoTrashOutline />
+            <BiEditAlt />
+          </Icons>
+        </PlaygroundCard>
+      </CardContainer>
+      <Folder>
+        <Header variant='folder'>
+          <Heading size='small'>
+            Data Structure
+          </Heading>
+          <AddButton>
+            <span>+</span> New ground
+          </AddButton>
+        </Header>
+      </Folder>
+
+      <CardContainer>
+        <PlaygroundCard>
+          <SmallLogo src='/logoSmall.png' alt='' />
+          <CardContent>
+            <h5>Stack Implementation</h5>
+            <p>Language: C++</p>
+          </CardContent>
+          <Icons>
+            <IoTrashOutline />
+            <BiEditAlt />
+          </Icons>
+        </PlaygroundCard>
+
+
+        <PlaygroundCard>
+          <SmallLogo src='/logoSmall.png' alt='' />
+          <CardContent>
+            <h5>Stack Implementation</h5>
+            <p>Language: C++</p>
+          </CardContent>
+          <Icons>
+            <IoTrashOutline />
+            <BiEditAlt />
+          </Icons>
+        </PlaygroundCard>
+
+        <PlaygroundCard>
+          <SmallLogo src='/logoSmall.png' alt='' />
+          <CardContent>
+            <h5>Stack Implementation</h5>
+            <p>Language: C++</p>
+          </CardContent>
+          <Icons>
+            <IoTrashOutline />
+            <BiEditAlt />
+          </Icons>
+        </PlaygroundCard>
+      </CardContainer>
+      
     </StyledRightPane>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import ModalProvider from './context/ModalContext';
 // import creatGloba
 // import GlobalStyle
 // import React from "react";
@@ -8,8 +9,11 @@ import GlobalStyles from "./styles/global";
 function App() {
   return (
     <div>
-      <GlobalStyles />
-      <HomeScreen />
+      <ModalProvider>
+        <GlobalStyles />
+        <HomeScreen />
+      </ModalProvider>
+
     </div>
   );
 }
