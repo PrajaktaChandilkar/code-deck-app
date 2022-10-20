@@ -21,7 +21,7 @@ const HomeScreen = () => {
     <HomeScreenContainer>
       <LeftPane />
       <RightPane />
-      {isOpen === true ? <Modal />  : <></>}
+      {isOpen?.value === true ? <Modal />  : <></>}
     </HomeScreenContainer>
   );
 };

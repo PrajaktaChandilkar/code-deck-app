@@ -1,5 +1,6 @@
 import React from 'react';
 import ModalProvider from './context/ModalContext';
+import PlaygroundProvider from './context/PlaygroundContext';
 // import creatGloba
 // import GlobalStyle
 // import React from "react";
@@ -9,10 +10,14 @@ import GlobalStyles from "./styles/global";
 function App() {
   return (
     <div>
-      <ModalProvider>
-        <GlobalStyles />
-        <HomeScreen />
-      </ModalProvider>
+
+      <PlaygroundProvider>
+        <ModalProvider>
+          <GlobalStyles />
+          <HomeScreen />
+        </ModalProvider>
+      </PlaygroundProvider>
+
 
     </div>
   );
